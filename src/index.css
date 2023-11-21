@@ -8,7 +8,6 @@ body {
   margin: 0;
   box-sizing: border-box;
   background: var(--cream);
-  border: 2px solid green;
   display: flex;
   align-items: center;
   justify-content: center;
