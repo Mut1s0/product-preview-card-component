@@ -1,8 +1,16 @@
+import ProductCard from './ProductCard';
 import './App.css';
 
 function App() {
+
   return(
-    <h1>App</h1>
+
+    <main>
+
+      <ProductCard />
+      
+    </main>
+
   );
 }
 
