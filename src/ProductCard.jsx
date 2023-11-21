@@ -7,24 +7,24 @@ function ProductCard() {
 
     return(
 
-        <div className="container max-w-[90%] rounded-xl">
+        <div className="container max-w-[900px] w-[80%] rounded-xl">
 
             <div>
 
                 <picture>
 
-                    <source media="(min-width: 650px)" srcset={ChannelDesktop} />
-                    <img src={ChannelMobile} alt="Mobile view" className="w-[100%] rounded-t-xl" />
+                    <source media="(min-width: 768px)" srcset={ChannelDesktop} className="" />
+                    <img src={ChannelMobile} alt="Mobile view" className="w-[100%] rounded-t-xl md:rounded-tr-none md:rounded-bl-xl" />
 
                 </picture>
 
             </div>
 
-            <div className="content px-5 py-7">
+            <div className="content px-5 py-7 md:max-w-[50%]">
 
                 <h4 className="uppercase tracking-[.25rem] mb-4">perfume</h4>
 
-                <h1 className="leading-8 mb-4">Gabrielle Essence Eau De Parfum</h1>
+                <h1 className="leading-10 mb-4">Gabrielle Essence Eau De Parfum</h1>
 
                 <p className="mb-4">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
 
