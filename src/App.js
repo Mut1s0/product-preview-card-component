@@ -5,10 +5,10 @@ function App() {
 
   return(
 
-    <main>
-
-      <ProductCard />
+    <main className=''>
       
+      <ProductCard />
+
     </main>
 
   );
